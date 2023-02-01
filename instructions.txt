@@ -1,0 +1,16 @@
+Requirements
+--------------
+* Ensure that you have MySQL Installed and Running
+* It must be on localhost and running on port 3306
+
+cd <project directory>
+
+pipenv shell
+
+pipenv install 
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py runserver
